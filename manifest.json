@@ -1,0 +1,14 @@
+{
+  "manifest_version" : 2,
+  "name" : "Translator in page",
+  "description" : "just for testing",
+  "version" : "1.1.0",
+  "author" : "Omid Ahmadi",
+  "content_scripts":
+   [
+    { "matches": ["http://*/*","https://*/*"],
+      "js": ["contentT.js","jquery-3.5.1.min.js"],
+      "css": ["myStyles.css"]
+    }
+   ]
+}
